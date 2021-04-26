@@ -17,10 +17,11 @@ body, html {
 .between{
   background-color: rgba(100,0,0,0.4)
 }
-.between p{
+p{
   margin: 50px;
   margin-left: 150px;
   padding-bottom: 25px;
+  font-size: 30px;
 }
 .between h1{
   margin-left: 100px;
