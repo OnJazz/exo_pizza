@@ -6,7 +6,6 @@
     <title>JazzyPizza</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../styles/style_menu.css">
-    <script src='main.js'></script>
 </head>
 <body>
     <nav class="menu">
@@ -18,23 +17,34 @@
         </ul>
     </nav>
     <form action="" method="get" class="formulaire">
-        <div class="form_pizza">
-            <label for="pet-select">Choisir une pizza:</label>
-            <select name="pizzas" id="pizza-slect">
-                <option value="">--Selectionnez une pizza--</option>
-                <option value="dog">Champignon</option>
-                <option value="cat">Chorizo</option>
-                <option value="hamster">Hawaienne</option>
-            </select>
+        <div>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
         </div>
+        <div>
+            <label for="prenom">Prenom :</label>
+            <input type="text" id="prenom" name="prenom">
+        </div>
+        <div>
+            <img id='carousel' src="../assets/img/champignon.jpg" alt="">
+            <button id='previous' type="button">Previous</button>
+            <p id="quantite">1</p>
+            <button id='ajouter' type="button">+</button>
+            <button id='enlever' type="button">-</button>
+            <button id='commander' type="button">Ajouter</button>
+            <button id='next' type="button">Next</button>
+        </div>
+
         <div class="form">
           <input type="submit" value="Subscribe!">
         </div>
       </form>
+
+      
       
 
       
     
-
+<script src='../scripts/test_carosel.js'></script>
 </body>
 </html>
