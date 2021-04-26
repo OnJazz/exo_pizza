@@ -6,7 +6,6 @@
     <title>JazzyPizza</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../styles/style_menu.css">
-    <link rel="stylesheet" href="../styles/style_trouver_restaurant.css">
     <script src='main.js'></script>
 </head>
 <body>
@@ -18,13 +17,23 @@
             <li><a href="trouver_restaurant.html">Trouver un restaurant</a></li>
         </ul>
     </nav>
-    <div id="googleMap">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.668563182518!2d3.018644719282758!3d50.63327357665257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d55c764ab439%3A0x2e9bfd5c48d283b!2sEuraTechnologies%20-%20Incubateur%20et%20acc%C3%A9l%C3%A9rateur%20startups%20Lille!5e0!3m2!1sfr!2sfr!4v1619438713232!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
+    <form action="" method="get" class="formulaire">
+        <div class="form_pizza">
+            <label for="pet-select">Choisir une pizza:</label>
+            <select name="pizzas" id="pizza-slect">
+                <option value="">--Selectionnez une pizza--</option>
+                <option value="dog">Champignon</option>
+                <option value="cat">Chorizo</option>
+                <option value="hamster">Hawaienne</option>
+            </select>
+        </div>
+        <div class="form">
+          <input type="submit" value="Subscribe!">
+        </div>
+      </form>
+      
 
-
-    
-     
+      
     
 
 </body>

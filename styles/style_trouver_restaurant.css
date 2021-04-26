@@ -1,0 +1,8 @@
+div#googleMap{
+	text-align: center;
+}
+iframe{
+	background-color: rgba(0,0,0,0.2);
+	padding: 10px;
+	border-radius: 10px 100px / 120px;
+}

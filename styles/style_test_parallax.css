@@ -1,0 +1,27 @@
+body, html {
+  height: 100%;
+}
+.parallax {
+    /* The image used */
+    background-image: url('../assets/img/bg2.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.between{
+  background-color: rgba(100,0,0,0.4)
+}
+.between p{
+  margin: 50px;
+  margin-left: 150px;
+  padding-bottom: 25px;
+}
+.between h1{
+  margin-left: 100px;
+}
